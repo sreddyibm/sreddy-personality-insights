@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sreddy-personality-insights
+  host: sreddy-personality-insights
+  disk_quota: 1024M
+  services:
+  - sreddy-personality-insights-personality_insights
